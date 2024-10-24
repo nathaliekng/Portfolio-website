@@ -11,8 +11,8 @@ const projectsData = [
     description: "Networking application",
     image: "/images/projects/DuosPreview.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: " ",
+    gitUrl: "https://github.com/danielPeng-17/duos",
+    previewUrl: "https://pollen-reason-fb3.notion.site/Duos-720722f570b642d7a09f4df164571d82",
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const projectsData = [
     description: "Chatbox AI",
     image: "/images/projects/CareerCraftAIPreview.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: " ",
+    gitUrl: "https://github.com/nathaliekng/Microsoft-Hackathon-2024-FrontEnd",
+    previewUrl: "https://pollen-reason-fb3.notion.site/CareerCraftAI-Stage-1-d4ba5eb1f91447b8950396bdaeed4d2d",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const projectsData = [
       "Layover planning web app for flight attendants and pilots using AI",
     image: "/images/projects/DuosPreview.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/nathaliekng/falo-ai",
     previewUrl: " ",
   },
 ];

@@ -2,6 +2,7 @@
 import React, { useState, useTransition } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import Link from "next/link";
 
 const TAB_DATA = [
   {
@@ -9,8 +10,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>React.js</li>
+        <li>React</li>
         <li>Java</li>
+        <li>JavaScript</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>SQL</li>
       </ul>
     ),
   },
@@ -19,7 +24,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Ryerson University, Toronto, ON, Canada</li>
+        <li>BSc. in Computer Science from Toronto Metropolitan University</li>
       </ul>
     ),
   },
@@ -29,6 +34,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Developer Intern @RBC</li>
+        <li>Mobile Application Developer Intern to Part-time @TMU</li>
+        <li>Technical Process Analyst Intern @CIBC</li>
+        <br></br>
+        <p>Download <Link href="/" className="text-primary-500">CV</Link> or visit <Link href="#experience" className="text-primary-500">Experience</Link> section to learn more</p>
       </ul>
     ),
   },
@@ -55,8 +64,8 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg ">
-            I'm a recent Computer Science graduate with a focus on Software
-            Engineering/Development.
+            I'm a Computer Science graduate with a focus on Software
+            Engineering/Development, looking for entry-level opportunities.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
