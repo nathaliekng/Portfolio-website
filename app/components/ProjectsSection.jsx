@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Duos",
-    description: "Networking application",
+    description: "Networking mobile application",
     image: "/images/projects/DuosPreview.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/danielPeng-17/duos",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Career Craft ChatAI",
-    description: "Chatbox AI",
+    description: "Chatbox AI submission for 2024 Microsoft Hackathon",
     image: "/images/projects/CareerCraftAIPreview.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/nathaliekng/Microsoft-Hackathon-2024-FrontEnd",
@@ -28,10 +28,10 @@ const projectsData = [
     title: "FA-LO AI Planner",
     description:
       "Layover planning web app for flight attendants and pilots using AI",
-    image: "/images/projects/DuosPreview.png",
+    image: "/images/projects/FALOPreview.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/nathaliekng/falo-ai",
-    previewUrl: " ",
+    previewUrl: "https://pollen-reason-fb3.notion.site/FA-LO-AI-19c52894774541c58891f52212c32f44",
   },
 ];
 
