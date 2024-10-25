@@ -37,7 +37,7 @@ const TAB_DATA = [
         <li>Mobile Application Developer Intern to Part-time @TMU</li>
         <li>Technical Process Analyst Intern @CIBC</li>
         <br></br>
-        <p>Download <Link href="/" className="text-primary-500">CV</Link> or visit <Link href="#experience" className="text-primary-500">Experience</Link> section to learn more</p>
+        <p>Download <a href="NathalieNg_Resume.pdf" download="NathalieNg_Resume" className="text-primary-500">CV</a> or visit <Link href="#experience" className="text-primary-500">Experience</Link> section to learn more</p>
       </ul>
     ),
   },
