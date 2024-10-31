@@ -8,7 +8,7 @@ import DownloadButton from "./DownloadButton";
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-16">
+    <section className="lg:py-16 border-b border-neutral-900 pb-4">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}

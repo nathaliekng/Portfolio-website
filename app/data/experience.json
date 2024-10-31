@@ -1,0 +1,45 @@
+[
+    {
+        "role": "Developer Intern",
+        "company":"RBC (Royal Bank of Canada)",
+        "startDate": "Jan. 2022",
+        "endDate":"Aug. 2022",
+        "description":[
+            "Set up data migration to the cloud for 15+ batch jobs by updating configurations and Docker base images",
+            "Debugged errors and resolved any base image vulnerabilities to build jobs on Helios and test individual jobs on OCP"
+        ],
+        "imageSrc":"/../../public/images/skills/rbc.png",
+        "technologies":[
+            "Docker", "Helios", "OpenShift Container Platform", "Hive"
+        ]
+    },
+    {
+        "role": "Mobile Application Developer Intern/Part-time",
+        "company":"Toronto Metropolitan University, First Year Engineering Office",
+        "startDate": "May 2021",
+        "endDate":"Dec. 2021",
+        "description":[
+            "Added notifications, updated navigation bar and integrated Google Maps to the mobile app (Xamarin, C#)",
+            "Automated Academic Initiative work using Google Script",
+            "Created a Discord Bot with Python and Google Script to verify registration status for student orientation"
+        ],
+        "imageSrc":"/../../public/images/skills/tmu.png",
+        "technologies":[
+            "Xamarin", "C#", "Google Script", "Python"
+        ]
+    },
+    {
+        "role": "Developer Intern",
+        "company":"CIBC (Canadian Imperial Bank of Commerce)",
+        "startDate": "Sep. 2020",
+        "endDate":"Dec. 2020",
+        "description":[
+            "Automated tasks such as compiling data and sending emails on Excel with VBA",
+            "Improved macros for tasks in Excel to maximize efficiency"
+        ],
+        "imageSrc":"/../../public/images/skills/rbc.png",
+        "technologies":[
+            "Excel", "VBA"
+        ]
+    }
+]
