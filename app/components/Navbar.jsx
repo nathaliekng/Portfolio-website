@@ -11,6 +11,11 @@ const navLinks = [
     path: "#about",
   },
   {
+    title: "Experience",
+    path: "#experience",
+  },
+
+  {
     title: "Projects",
     path: "#projects",
   },
@@ -18,6 +23,7 @@ const navLinks = [
     title: "Contact",
     path: "#contact",
   },
+  
 ];
 
 const Navbar = () => {

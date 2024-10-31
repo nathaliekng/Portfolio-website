@@ -8,7 +8,6 @@ import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
 import ExperienceSection from "./components/ExperienceSection";
 import Technologies from "./components/Technologies";
-import MotionTest from "./components/MotionTest";
 
 export default function Home() {
   return (
