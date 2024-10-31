@@ -7,22 +7,9 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { motion } from "framer-motion";
 
 
-const iconVariants = (duration) => ({
-  initial: { y: -10 },
-  animate: {
-    y: [10, -10],
-    transition: {
-      duration: duration,
-      ease: "linear",
-      repeat: Infinity,
-      repeatType: "reverse",
-    },
-  },
-});
-
 const Technologies = () => {
   return (
-    <section id="techstack" className="border-b border-neutral-900 pb-20">
+    <section id="techstack" className="border-b border-neutral-900 pb-10 pt-10">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         Technologies
       </h2>
