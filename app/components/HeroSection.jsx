@@ -29,7 +29,7 @@ const HeroSection = () => {
                 1000,
                 "Nathalie",
                 1000,
-                "Developer",
+                "a Developer",
                 1000,
               ]}
               wrapper="span"
