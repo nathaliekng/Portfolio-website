@@ -31,7 +31,7 @@ const ExperienceSection = () => {
       </h2>
       <div>
         {experiences.map((experience, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div key={index} className="mb-8 flex flex-wrap lg:justify-center sm:justify-center">
             <motion.div 
             whileInView={{opacity:1, x:0}}
             initial={{opacity:0, x:-100}}
